@@ -1,0 +1,66 @@
+/* for whole div element  */
+.board-header{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    background-color: #131A28;
+    color: white;
+    justify-content: center;  
+    align-items: center;
+}
+/* for header React Tic-Toc-Toe */
+.heading-text {
+    color: white;
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 20px;
+}
+/* for row class */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+/* for column class */
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.jc-center {
+    justify-content: center;
+}
+/* for clear button */
+.clear-button {
+    width: 10%;
+    height: 60px;
+    margin: 40px auto 10px auto;
+    background-color: #ff0000;
+    font-size: 20px;
+}
+/* for the last p tag(winner is) in board.js file */
+.fc-aqua {
+    color: #1CDBF5;
+}
+.fc-white {
+    color: white;
+}
+.fw-600 {
+    font-weight: bolder;
+}
+@media only screen and (max-width: 600px) {
+    .heading-text {
+        color: white;
+        font-size: 42px;
+        font-weight: bolder;
+        text-align: center;
+        margin: 20px;
+    }
+    .clear-button {
+        width: 10%;
+        height: 60px;
+        margin: 40px auto 10px auto;
+        background-color: #ff0000;
+        font-size: 20px;
+    }
+}
